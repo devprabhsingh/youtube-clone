@@ -1,0 +1,56 @@
+.searchPage{
+    
+    flex:0.8;
+    padding:0 50px;
+    margin-top:14vh;
+}
+.searchPage_filter{
+    display:flex;
+    align-items:center;
+    color:#606060;
+    font-size:xx-small !important;
+    padding-top:10px;
+}
+.searchPage_filter >h2{
+    margin-left:10px;
+}
+.searchPage >hr{
+    height:1px;
+    border:0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.searchRVideos{
+    width:100% !important;
+    display:flex;
+}
+
+
+@media screen and (max-width:1000px){
+    .searchPage{
+        flex:1; 
+        padding:0 5px;
+    }
+    .searchResults{
+        display:flex;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .description{
+        display:none;
+    }
+}
+@media screen and (max-width:660px){
+    .searchPage{
+        flex:1;
+        padding:0 5px;
+    }
+    .searchResults{
+      
+      width:100%;
+    }
+    
+
+}
